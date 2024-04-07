@@ -1,0 +1,36 @@
+@font-face {
+  font-family: regular;
+  src: url("./assets/fonts/VolvoNovum-Regular-webfont.woff2");
+}
+@font-face {
+  font-family: medium;
+  src: url("./assets/fonts/VolvoNovum-Medium-webfont.woff2");
+}
+@font-face {
+  font-family: digital;
+  src: url("./assets/fonts/VolvoBroadProDigital-webfont.woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.regular {
+  font-family: regular, sans-serif;
+}
+
+.medium {
+  font-family: medium, sans-serif;
+}
+.digital {
+  font-family: digital, sans-serif;
+}
+
+.bg{
+    background-image: url(./assets/images/bgImg.avif);
+    background-size: cover;
+    background-position: center;
+}
