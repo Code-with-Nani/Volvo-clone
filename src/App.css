@@ -14,7 +14,6 @@
 * {
   margin: 0;
   padding: 0;
-  overflow: hidden;
   box-sizing: border-box;
 }
 
@@ -29,8 +28,8 @@
   font-family: digital, sans-serif;
 }
 
-.bg{
-    background-image: url(./assets/images/bgImg.avif);
-    background-size: cover;
-    background-position: center;
+.bg {
+  background-image: url(./assets/images/bgImg.avif);
+  background-size: cover;
+  background-position: center;
 }

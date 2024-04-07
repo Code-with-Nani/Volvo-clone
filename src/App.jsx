@@ -5,11 +5,11 @@ import Home from "./components/Home";
 
 function App() {
   return (
-    <>
-      <Header/>
-      {/* <Home/> */}
-      {/* <Footer/> */}
-    </>
+    <div className="overflow-hidden">
+      <Header />
+      <Home />
+      <Footer />
+    </div>
   );
 }
 
