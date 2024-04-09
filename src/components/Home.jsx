@@ -19,8 +19,8 @@ const Home = () => {
       <div className="slider my-16 mb-20 ">
         <Slider {...settings}>
           {arr.map((val, index) => (
-            <div key={index} className="relative cursor-pointer">
-              <img src={val.src} alt="" />
+            <div key={index} className="relative cursor-pointer pr-5">
+              <img className="" src={val.src} alt="" />
               <h2 className="absolute inset-0 z-10 text-white top-[40%] pb-10 pl-10 pr-40 uppercase regular text-[14px] leading-[24px]">
                 {val.heading}
               </h2>
@@ -55,7 +55,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="center mt-20">
+      <div className="center mt-20 w-full">
         <img src={img2} alt="" />
       </div>
 
